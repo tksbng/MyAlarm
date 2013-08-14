@@ -23,6 +23,22 @@
 		FF2840E317B9CACA009745BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2840BE17B9CAC9009745BC /* Foundation.framework */; };
 		FF2840EB17B9CACA009745BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF2840E917B9CACA009745BC /* InfoPlist.strings */; };
 		FF2840EE17B9CACA009745BC /* MyAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2840ED17B9CACA009745BC /* MyAlarmTests.m */; };
+		FF28410317B9CB71009745BC /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840F717B9CB71009745BC /* 0.png */; };
+		FF28410417B9CB71009745BC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840F817B9CB71009745BC /* 1.png */; };
+		FF28410517B9CB71009745BC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840F917B9CB71009745BC /* 2.png */; };
+		FF28410617B9CB71009745BC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840FA17B9CB71009745BC /* 3.png */; };
+		FF28410717B9CB71009745BC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840FB17B9CB71009745BC /* 4.png */; };
+		FF28410817B9CB71009745BC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840FC17B9CB71009745BC /* 5.png */; };
+		FF28410A17B9CB71009745BC /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840FE17B9CB71009745BC /* 7.png */; };
+		FF28410B17B9CB71009745BC /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2840FF17B9CB71009745BC /* 8.png */; };
+		FF28410C17B9CB71009745BC /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = FF28410017B9CB71009745BC /* 9.png */; };
+		FF28410D17B9CB71009745BC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF28410117B9CB71009745BC /* icon.png */; };
+		FF28410E17B9CB71009745BC /* koukaon1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FF28410217B9CB71009745BC /* koukaon1.wav */; };
+		FF28411017B9D124009745BC /* コロン.png in Resources */ = {isa = PBXBuildFile; fileRef = FF28410F17B9D124009745BC /* コロン.png */; };
+		FF28411417BA6BE4009745BC /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28411217BA6BE4009745BC /* settingViewController.m */; };
+		FF28411517BA6BE4009745BC /* settingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF28411317BA6BE4009745BC /* settingViewController.xib */; };
+		FF28411717BB60F3009745BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF28411617BB60F3009745BC /* AVFoundation.framework */; };
+		FF28411917BB6D92009745BC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = FF28411817BB6D92009745BC /* 6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +74,23 @@
 		FF2840EA17B9CACA009745BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF2840EC17B9CACA009745BC /* MyAlarmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAlarmTests.h; sourceTree = "<group>"; };
 		FF2840ED17B9CACA009745BC /* MyAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAlarmTests.m; sourceTree = "<group>"; };
+		FF2840F717B9CB71009745BC /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		FF2840F817B9CB71009745BC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FF2840F917B9CB71009745BC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FF2840FA17B9CB71009745BC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		FF2840FB17B9CB71009745BC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		FF2840FC17B9CB71009745BC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		FF2840FE17B9CB71009745BC /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		FF2840FF17B9CB71009745BC /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		FF28410017B9CB71009745BC /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		FF28410117B9CB71009745BC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF28410217B9CB71009745BC /* koukaon1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = koukaon1.wav; sourceTree = "<group>"; };
+		FF28410F17B9D124009745BC /* コロン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コロン.png"; sourceTree = "<group>"; };
+		FF28411117BA6BE4009745BC /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		FF28411217BA6BE4009745BC /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		FF28411317BA6BE4009745BC /* settingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = settingViewController.xib; sourceTree = "<group>"; };
+		FF28411617BB60F3009745BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF28411817BB6D92009745BC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF28411717BB60F3009745BC /* AVFoundation.framework in Frameworks */,
 				FF2840BD17B9CAC9009745BC /* UIKit.framework in Frameworks */,
 				FF2840BF17B9CAC9009745BC /* Foundation.framework in Frameworks */,
 				FF2840C117B9CAC9009745BC /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +121,22 @@
 		FF2840B017B9CAC9009745BC = {
 			isa = PBXGroup;
 			children = (
+				FF28411817BB6D92009745BC /* 6.png */,
+				FF28411117BA6BE4009745BC /* settingViewController.h */,
+				FF28411217BA6BE4009745BC /* settingViewController.m */,
+				FF28411317BA6BE4009745BC /* settingViewController.xib */,
+				FF28410F17B9D124009745BC /* コロン.png */,
+				FF2840F717B9CB71009745BC /* 0.png */,
+				FF2840F817B9CB71009745BC /* 1.png */,
+				FF2840F917B9CB71009745BC /* 2.png */,
+				FF2840FA17B9CB71009745BC /* 3.png */,
+				FF2840FB17B9CB71009745BC /* 4.png */,
+				FF2840FC17B9CB71009745BC /* 5.png */,
+				FF2840FE17B9CB71009745BC /* 7.png */,
+				FF2840FF17B9CB71009745BC /* 8.png */,
+				FF28410017B9CB71009745BC /* 9.png */,
+				FF28410117B9CB71009745BC /* icon.png */,
+				FF28410217B9CB71009745BC /* koukaon1.wav */,
 				FF2840C217B9CAC9009745BC /* MyAlarm */,
 				FF2840E617B9CACA009745BC /* MyAlarmTests */,
 				FF2840BB17B9CAC9009745BC /* Frameworks */,
@@ -106,6 +156,7 @@
 		FF2840BB17B9CAC9009745BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF28411617BB60F3009745BC /* AVFoundation.framework */,
 				FF2840BC17B9CAC9009745BC /* UIKit.framework */,
 				FF2840BE17B9CAC9009745BC /* Foundation.framework */,
 				FF2840C017B9CAC9009745BC /* CoreGraphics.framework */,
@@ -236,6 +287,20 @@
 				FF2840D117B9CAC9009745BC /* Default@2x.png in Resources */,
 				FF2840D317B9CAC9009745BC /* Default-568h@2x.png in Resources */,
 				FF2840D617B9CAC9009745BC /* MainStoryboard.storyboard in Resources */,
+				FF28410317B9CB71009745BC /* 0.png in Resources */,
+				FF28410417B9CB71009745BC /* 1.png in Resources */,
+				FF28410517B9CB71009745BC /* 2.png in Resources */,
+				FF28410617B9CB71009745BC /* 3.png in Resources */,
+				FF28410717B9CB71009745BC /* 4.png in Resources */,
+				FF28410817B9CB71009745BC /* 5.png in Resources */,
+				FF28410A17B9CB71009745BC /* 7.png in Resources */,
+				FF28410B17B9CB71009745BC /* 8.png in Resources */,
+				FF28410C17B9CB71009745BC /* 9.png in Resources */,
+				FF28410D17B9CB71009745BC /* icon.png in Resources */,
+				FF28410E17B9CB71009745BC /* koukaon1.wav in Resources */,
+				FF28411017B9D124009745BC /* コロン.png in Resources */,
+				FF28411517BA6BE4009745BC /* settingViewController.xib in Resources */,
+				FF28411917BB6D92009745BC /* 6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +338,7 @@
 				FF2840C917B9CAC9009745BC /* main.m in Sources */,
 				FF2840CD17B9CAC9009745BC /* AppDelegate.m in Sources */,
 				FF2840D917B9CAC9009745BC /* ViewController.m in Sources */,
+				FF28411417BA6BE4009745BC /* settingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

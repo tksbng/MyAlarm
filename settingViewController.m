@@ -26,7 +26,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    picker.datePickerMode = UIDatePickerModeTime;
+}
+
+-(IBAction)saveButtonCliked:(id)sender {
+    [self.delegate didSaveButtonClicked:self selectedDate:picker.date pickerName:self.pickerName];
+}
+
+-(IBAction)cancelButtonCliked:(id)sender {
+    [self.delegate didCancelButtonClicked:self pickerName:self.pickerName];
+    
+}
+-(IBAction)refreshButtonCliked:(id)sender   {
+    [self.delegate didRefreshButtonClicked:self pickerName:self.pickerName];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    if(self.dispDate != nil){
+        [picker setDate:self.dispDate];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,5 +52,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
