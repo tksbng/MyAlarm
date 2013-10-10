@@ -206,6 +206,9 @@
     [imageview_hour0 setImage:[imageArray objectAtIndex:hourfirst]];
     [imageview_min10 setImage:[imageArray objectAtIndex:minutesecond]];
     [imageview_min0 setImage:[imageArray objectAtIndex:minutefirst]];
+    [imageview_second10 setImage:[imageArray objectAtIndex:secondsecond]];
+    [imageview_second0 setImage:[imageArray objectAtIndex:secondfirst]];
+
 }
 - (void)didReceiveMemoryWarning
 {

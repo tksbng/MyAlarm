@@ -54,6 +54,14 @@
                                     <action selector="plusClicked:" destination="2" eventType="touchUpInside" id="j3x-a3-JE4"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="SDG-Zw-uTC">
+                                <rect key="frame" x="101" y="203" width="55" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="ygg-s1-el1">
+                                <rect key="frame" x="164" y="203" width="55" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -62,6 +70,8 @@
                         <outlet property="imageview_hour10" destination="P9h-ZO-TGT" id="c8y-cv-bLz"/>
                         <outlet property="imageview_min0" destination="j0B-09-3bl" id="ysi-r0-KpF"/>
                         <outlet property="imageview_min10" destination="jQB-xr-mij" id="w19-AG-z8I"/>
+                        <outlet property="imageview_second0" destination="ygg-s1-el1" id="yzj-c4-Wdk"/>
+                        <outlet property="imageview_second10" destination="SDG-Zw-uTC" id="P9S-4y-VHH"/>
                         <outlet property="labelForDate" destination="3Pb-jO-e0b" id="0Z7-G5-hTL"/>
                     </connections>
                 </viewController>

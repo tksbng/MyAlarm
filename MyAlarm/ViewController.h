@@ -49,6 +49,8 @@
     IBOutlet UIImageView *imageview_hour0;
     IBOutlet UIImageView *imageview_min0;
     IBOutlet UIImageView *imageview_min10;
+    IBOutlet UIImageView *imageview_second0;
+    IBOutlet UIImageView *imageview_second10;
     
     // Call DatePicker class
     settingViewController *datePickerController;
